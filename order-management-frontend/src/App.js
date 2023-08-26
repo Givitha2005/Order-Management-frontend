@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./Pages/Login";
-import Register from "./Pages/Register";
-import Home from "./Pages/Home";
+import Login from "./Pages/Login/Login";
+import Register from "./Pages/Register/Register";
+import Home from "./Pages/Home/Home";
 import CustomerList from "./Pages/Customers/CustomerList";
 import CustomerAdd from "./Pages/Customers/CustomerAdd";
 import CustomerUpdate from "./Pages/Customers/CustomerUpdate";
@@ -14,11 +14,11 @@ import OrderAdd from "./Pages/Orders/OrderAdd";
 import OrderUpdate from "./Pages/Orders/OrderUpdate";
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <>
       <BrowserRouter>
-      <Routes>
+        <Routes>
           <Route path="/register" element={<Register />} />
           <Route path="/" element={<Login />} />
           <Route path="/home" element={<Home />} />
@@ -33,8 +33,9 @@ function App() {
           <Route path="/:id/orderupdate" element={<OrderUpdate />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
-}
+};
+
 
 export default App;

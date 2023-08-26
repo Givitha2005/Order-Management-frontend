@@ -1,10 +1,10 @@
 import React from "react";
-import Charts from "../../components/Charts";
-import Featured from "../../components/Featured";
-import Navbar from "../../components/Navbar";
-import Sidebar from "../../components/Sidebar";
-import TableList from "../../components/Table";
-import Widget from "../../components/Widget";
+import Charts from "../../Components/Charts/Charts";
+import Featured from "../../Components/Featured/Featured";
+import Navbar from "../../Components/Navbar/Navbar";
+import Sidebar from "../../Components/Sidebar/Sidebar";
+import TableList from "../../Components/Table/Table";
+import Widget from "../../Components/Widget/Widget";
 import "./Home.css";
 
 const index = () => {

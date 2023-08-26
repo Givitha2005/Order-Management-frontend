@@ -92,17 +92,7 @@ const Login = () => {
               </div>
             </form>
           </div>
-          <div className="col-md-5">
-            <div className="lottie">
-              <lottie-player
-                src="https://assets3.lottiefiles.com/packages/lf20_qpsnmykx.json"
-                background="transparent"
-                speed="1"
-                loop
-                autoplay
-              ></lottie-player>
-            </div>
-          </div>
+         
         </div>
       </div>
       <ToastContainer />

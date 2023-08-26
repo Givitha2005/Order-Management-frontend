@@ -17,28 +17,8 @@ const Navbar = () => {
             <input className="inputs"  type="text" placeholder="Search..." />
             <SearchOutlinedIcon />
           </div>
-          <div className="items">
-            <div className="item">
-              <LanguageOutlinedIcon className="Icon" />
-              English
-            </div>
-            <div className="item">
-              <DarkModeOutlinedIcon className="Icon" />
-            </div>
-            <div className="item">
-              <FullscreenExitOutlinedIcon className="Icon" />
-            </div>
-            <div className="item">
-              <NotificationsNoneOutlinedIcon className="Icon" />
-              <div className="counter">1</div>
-            </div>
-            <div className="item">
-              <ChatBubbleOutlineOutlinedIcon className="Icon" />
-              <div className="counter">2</div>
-            </div>
-            <div className="item">
-              <ListOutlinedIcon className="Icon" />
-            </div>
+          
+           
             <div className="item">
               <img
                 src="https://static-00.iconduck.com/assets.00/regional-indicator-symbol-letter-a-emoji-512x512-bpssxfme.png"
@@ -49,7 +29,6 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
     </>
   );
 };
